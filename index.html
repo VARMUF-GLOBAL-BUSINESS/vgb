@@ -1,249 +1,336 @@
-```html
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VARMUF GLOBAL BUSINESS</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.0.4/dist/tailwind.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.15.3/css/all.css"
-        integrity="xyz" crossorigin="anonymous" />
-    <style>
-        /* Additional CSS styles here */
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VARMUF GLOBAL BUSINESS - Premier Oil and Gas Marketing in Nigeria</title>
+
+  <!-- Tailwind CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.0.1/dist/tailwind.min.css" rel="stylesheet">
+
+  <!-- Fontawesome Icons -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet">
+
+  <!-- Animate.css -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link href="styles.css" rel="stylesheet">
+
+  <!-- jQuery -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+  <!-- Custom JavaScript -->
+  <script src="scripts.js"></script>
 </head>
 
 <body>
-    <header class="bg-gray-800 text-white py-4">
-        <div class="container mx-auto flex justify-between items-center px-4">
-            <h1 class="text-xl font-bold">VARMUF GLOBAL BUSINESS</h1>
-            <nav class="space-x-4">
-                <a href="#" class="hover:text-gray-300">Home</a>
-                <a href="#" class="hover:text-gray-300">About</a>
-                <a href="#" class="hover:text-gray-300">Services</a>
-                <a href="#" class="hover:text-gray-300">Contact</a>
-            </nav>
-        </div>
-    </header>
 
-    <section class="hero bg-gradient-to-r from-blue-500 to-indigo-500 py-16">
-        <div class="container mx-auto text-center">
-            <h2 class="text-4xl font-bold text-white mb-8">Welcome to VARMUF GLOBAL BUSINESS</h2>
-            <a href="#" class="bg-indigo-600 hover:bg-indigo-700 text-white font-semibold px-6 py-3 rounded-full">Learn
-                More</a>
-        </div>
-    </section>
+  <!-- Header Section -->
+  <header class="bg-gray-800 text-white py-4">
+    <div class="container mx-auto flex justify-between items-center px-8">
+      <div class="text-2xl font-bold">VARMUF GLOBAL BUSINESS</div>
+      <nav>
+        <ul class="flex space-x-4">
+          <li><a href="#" class="hover:text-gray-400">Home</a></li>
+          <li><a href="#" class="hover:text-gray-400">Services</a></li>
+          <li><a href="#" class="hover:text-gray-400">About</a></li>
+          <li><a href="#" class="hover:text-gray-400">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-    <section class="py-16">
-        <div class="container mx-auto">
-            <div class="grid grid-cols-3 gap-8">
-                <div class="text-center">
-                    <i class="fas fa-award text-3xl text-gray-800 mb-4"></i>
-                    <h3 class="text-xl font-semibold mb-2">Quality Assurance</h3>
-                    <p class="text-gray-700">We ensure top quality in all our products and services.</p>
+  <!-- Hero Section -->
+  <section class="hero bg-cover bg-center flex items-center py-36"
+    style="background-image: url('https://source.unsplash.com/featured/1280x720/?oil-and-gas');">
+    <div class="container mx-auto text-center px-8">
+      <h1 class="text-5xl font-bold text-white mb-4">Oil and Gas Marketing</h1>
+      <a href="#" class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-4 px-8 rounded-full">Learn More</a>
+    </div>
+  </section>
+
+  <!-- Feature Section -->
+  <section class="feature bg-gray-100 py-16">
+    <div class="container mx-auto flex justify-center">
+      <!-- Feature Card 1 -->
+      <div class="max-w-xs rounded overflow-hidden shadow-lg p-6 mx-4">
+        <i class="fas fa-chart-bar text-4xl text-blue-500 mb-4"></i>
+        <h2 class="text-xl font-bold mb-2">Data Analytics</h2>
+        <p class="text-gray-600">Gain precise insights into your oil and gas marketing campaigns.</p>
+        <a href="#" class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-full mt-4 inline-block">Learn More</a>
+      </div>
+
+      <!-- Feature Card 2 -->
+      <div class="max-w-xs rounded overflow-hidden shadow-lg p-6 mx-4">
+        <i class="fas fa-bullhorn text-4xl text-blue-500 mb-4"></i>
+        <h2 class="text-xl font-bold mb-2">Digital Marketing</h2>
+        <p class="text-gray-600">Effectively reach your target audience through digital channels.</p>
+        <a href="#" class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-full mt-4 inline-block">Learn More</a>
+      </div>
+
+      <!-- Feature Card 3 -->
+      <div class="max-w-xs rounded overflow-hidden shadow-lg p-6 mx-4">
+        <i class="fas fa-globe-americas text-4xl text-blue-500 mb-4"></i>
+        <h2 class="text-xl font-bold mb-2">Global Reach</h2>
+        <p class="text-gray-600">Expand your business globally with our international marketing strategies.</p>
+        <a href="#" class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-full mt-4 inline-block">Learn More</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Individual Feature Sections -->
+  <section class="individual-feature bg-gray-200 py-16">
+    <!-- Individual Feature 1 -->
+    <div class="container mx-auto flex flex-col-reverse md:flex-row items-center">
+      <div class="w-full md:w-1/2">
+        <img class="mx-auto md:mx-0 md:float-left mb-4 md:mb-0" src="https://source.unsplash.com/featured/1280x720/?data-analytics"
+          alt="Data Analytics">
+      </div>
+      <div class="w-full md:w-1/2 px-8">
+        <h2 class="text-3xl font-bold mb-4">Data Analytics</h2>
+        <p class="text-gray-600">Get valuable insights into your oil and gas marketing campaigns with our data analytics services. We analyze data meticulously, providing accurate information to enhance your marketing strategies and improve business outcomes.</p>
+        <a href="#" class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-full mt-4 inline-block">Learn More</a>
+      </div>
+    </div>
+
+    <!-- Individual Feature 2 -->
+    <div class="container mx-auto flex flex-col md:flex-row-reverse items-center mt-12">
+      <div class="w-full md:w-1/2">
+        <img class="mx-auto md:mx-0 md:float-right mb-4 md:mb-0" src="https://source.unsplash.com/featured/1280x720/?digital-marketing"
+          alt="Digital Marketing">
+      </div>
+      <div class="w-full md:w-1/2 px-8">
+        <h2 class="text-3xl font-bold mb-4">Digital Marketing</h2>
+        <p class="text-gray-600">Reach your target audience effectively through digital marketing. Our expert team crafts tailored strategies to promote your oil and gas products or services online. We utilize advanced techniques to maximize your online presence and boost customer engagement.</p>
+        <a href="#" class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-full mt-4 inline-block">Learn More</a>
+      </div>
+    </div>
+
+    <!-- Individual Feature 3 -->
+    <div class="container mx-auto flex flex-col-reverse md:flex-row items-center mt-12">
+      <div class="w-full md:w-1/2">
+        <img class="mx-auto md:mx-0 md
+        :float-left mb-4 md:mb-0" src="https://source.unsplash.com/featured/1280x720/?global-reach" alt="Global Reach">
+    </div>
+    <div class="w-full md:w-1/2 px-8">
+      <h2 class="text-3xl font-bold mb-4">Global Reach</h2>
+      <p class="text-gray-600">Expand your business globally with our international marketing strategies. We provide comprehensive solutions to establish your presence in international markets. Our team navigates the complexities of global marketing, ensuring your business reaches new horizons.</p>
+      <a href="#" class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-full mt-4 inline-block">Learn More</a>
+    </div>
+  </div>
+</section>
+
+<!-- Testimonial Section -->
+<section class="testimonial bg-white py-16">
+  <div class="container mx-auto">
+    <h2 class="text-3xl font-bold mb-8">Testimonials</h2>
+    <div class="flex flex-col md:flex-row">
+      <!-- Testimonial 1 -->
+      <div class="w-full md:w-1/2 p-4">
+        <div class="bg-gray-200 p-6 rounded-lg">
+          <i class="fas fa-quote-left text-2xl text-blue-500 mb-4"></i>
+          <p>Working with VARMUF GLOBAL BUSINESS has been a transformative experience. Their innovative approaches and deep industry knowledge propelled our company to new heights. I highly recommend their services to anyone in the oil and gas sector.</p>
+          <div class="mt-4">
+            <span class="font-bold">Omotola Oluwale</span>
+            <span class="text-gray-600">(Senior Manager, World Oil Industries Limited)</span>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Testimonial 2 -->
+      <div class="w-full md:w-1/2 p-4">
+        <div class="bg-gray-200 p-6 rounded-lg">
+          <i class="fas fa-quote-left text-2xl text-blue-500 mb-4"></i>
+          <p>We are immensely satisfied with the results delivered by VARMUF GLOBAL BUSINESS. Their dedication and expertise in the field of oil and gas marketing are unmatched. Thanks to their strategies, our brand awareness has significantly increased, and we have gained valuable leads.</p>
+          <div class="mt-4">
+            <span class="font-bold">Aminu Otobu</span>
+            <span class="text-gray-600">(Marketing Manager, ABC Corporation)</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Blog Section -->
+<section class="blog bg-gray-100 py-16">
+    <div class="container mx-auto">
+        <h2 class="text-3xl font-bold mb-8">Latest Blog Posts</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Blog Post 1 -->
+            <div class="bg-white rounded-lg shadow">
+                <img src="https://source.unsplash.com/featured/500x400/?blog-post" alt="Blog Post 1" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <h3 class="text-xl font-bold mb-2">The Future of Oil and Gas Industry</h3>
+                    <p class="text-gray-600">Explore the latest trends and technologies shaping the future of the oil and gas sector. Learn how innovative solutions are revolutionizing the industry.</p>
+                    <a href="#" class="text-blue-500 hover:text-blue-600 font-bold mt-2 inline-block">Read More</a>
                 </div>
-                <div class="text-center">
-                    <i class="fas fa-lock text-3xl text-gray-800 mb-4"></i>
-                    <h3 class="text-xl font-semibold mb-2">Reliable Partnerships</h3>
-                    <p class="text-gray-700">We collaborate with major Oil depots in Nigeria for a reliable supply chain.</p>
+            </div>
+
+            <!-- Blog Post 2 -->
+            <div class="bg-white rounded-lg shadow">
+                <img src="https://source.unsplash.com/featured/500x400/?blog-post" alt="Blog Post 2" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <h3 class="text-xl font-bold mb-2">Sustainable Practices in Oil and Gas</h3>
+                    <p class="text-gray-600">Discover the eco-friendly initiatives adopted by leading oil and gas companies. Learn how sustainability is becoming a driving force in the industry.</p>
+                    <a href="#" class="text-blue-500 hover:text-blue-600 font-bold mt-2 inline-block">Read More</a>
                 </div>
-                <div class="text-center">
-                    <i class="fas fa-globe text-3xl text-gray-800 mb-4"></i>
-                    <h3 class="text-xl font-semibold mb-2">Global Reach</h3>
-                    <p class="text-gray-700">Our services extend beyond Nigeria, enabling us to cater to international clients.</p>
+            </div>
+
+            <!-- Blog Post 3 -->
+            <div class="bg-white rounded-lg shadow">
+                <img src="https://source.unsplash.com/featured/500x400/?blog-post" alt="Blog Post 3" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <h3 class="text-xl font-bold mb-2">Innovations in Oil Extraction Techniques</h3>
+                    <p class="text-gray-600">Explore the cutting-edge methods revolutionizing oil extraction. From AI-powered drilling to advanced reservoir modeling, learn about the future of extraction technologies.</p>
+                    <a href="#" class="text-blue-500 hover:text-blue-600 font-bold mt-2 inline-block">Read More</a>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
-    <section class="py-16">
-        <div class="container mx-auto">
-            <h2 class="text-3xl font-bold mb-8">Testimonials</h2>
-            <div class="grid grid-cols-2 gap-8">
-                <div class="p-6 bg-white rounded-lg shadow-md">
-                    <i class="fas fa-quote-left text-3xl text-indigo-600 mb-4"></i>
-                    <p class="text-gray-800 mb-4">"VARMUF GLOBAL BUSINESS is truly a leader in the oil and gas industry.
-                        They provide top-notch services and products."</p>
-                    <p class="text-gray-700 font-semibold">Louis Olube</p>
-                    <p class="text-gray-600">Customer</p>
-                </div>
-                <div class="p-6 bg-white rounded-lg shadow-md">
-                    <i class="fas fa-quote-left text-3xl text-indigo-600 mb-4"></i>
-                    <p class="text-gray-800 mb-4">"The financial analysis provided by VARMUF GLOBAL BUSINESS has been
-                        invaluable in our decision-making processes."</p>
-                    <p class="text-gray-700 font-semibold">Omotola Oluwole</p>
-                    <p class="text-gray-600">Customer</p>
-                </div>
+<!-- FAQ Section -->
+<section class="faq bg-white py-16">
+  <div class="container mx-auto">
+    <h2 class="text-3xl font-bold mb-8">Frequently Asked Questions</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+      <!-- FAQ 1 -->
+      <div>
+        <h3 class="text-xl font-bold mb-2">What are your pricing options?</h3>
+        <p class="text-gray-600">Our pricing options are tailored to meet your specific business needs. Please contact us for detailed information.</p>
+      </div>
+
+      <!-- FAQ 2 -->
+      <div>
+        <h3 class="text-xl font-bold mb-2">Can you customize your services to fit our needs?</h3>
+        <p class="text-gray-600">Yes, we provide customized services to ensure they align perfectly with your business requirements.</p>
+      </div>
+
+      <!-- FAQ 3 -->
+      <div>
+        <h3 class="text-xl font-bold mb-2">How long does it take to see results?</h3>
+        <p class="text-gray-600">The timeframe for results varies based on the services availed. Contact us for a detailed consultation on your specific requirements.</p>
+      </div>
+
+      <!-- FAQ 4 -->
+      <div>
+        <h3 class="text-xl font-bold mb-2">Do you provide ongoing support?</h3>
+        <p class="text-gray-600">Yes, we offer comprehensive ongoing support to ensure the continued success of your marketing initiatives.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Team Section -->
+<section class="team bg-gray-100 py-16">
+  <div class="container mx-auto">
+    <h2 class="text-3xl font-bold mb-8">Meet Our Team</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <!-- Team Member 1 -->
+        <!-- Team Member 1 -->
+        <div>
+            <img src="https://source.unsplash.com/featured/400x400/?team-member" alt="Team Member 1" class="w-32 h-32 rounded-full mx-auto mb-4">
+            <h3 class="text-xl font-bold mb-2">Moruf Yusuf</h3>
+            <p class="text-gray-600">Chief Executive Officer</p>
+            <div class="flex justify-center mt-4">
+              <a href="#"><i class="fab fa-twitter text-blue-500 hover:text-blue-600 mr-2"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in text-blue-500 hover:text-blue-600"></i></a>
             </div>
-        </div>
-    </section>
-
-    <section class="py-16 bg-gray-100">
-        <div class="container mx-auto">
-            <h2 class="text-3xl font-bold mb-8">Recent Blog Posts</h2>
-            <div class="grid grid-cols-3 gap-8">
-                <div class="bg-white p-6 rounded-lg shadow-md">
-                    <h3 class="text-xl font-semibold mb-2">Understanding the Oil and Gas Industry</h3>
-                    <p class="text-gray-700 mb-4">Explore the key aspects of the oil and gas industry and how it impacts
-                        global markets.</p>
-                    <a href="#" class="text-indigo-600 hover:underline">Read More</a>
-                </div>
-                <div class="bg-white p-6 rounded-lg shadow-md">
-                    <h3 class="text-xl font-semibold mb-2">Financial Strategies for Business Growth
-                    </h3>
-                    <p class="text-gray-700 mb-4">Discover effective financial strategies to drive business growth and success.</p>
-                    <a href="#" class="text-indigo-600 hover:underline">Read More</a>
-                </div>
-                <div class="bg-white p-6 rounded-lg shadow-md">
-                    <h3 class="text-xl font-semibold mb-2">Creating a Safe Work Environment</h3>
-                    <p class="text-gray-700 mb-4">Learn how VARMUF GLOBAL BUSINESS prioritizes safety in the workplace and its impact on our operations.</p>
-                    <a href="#" class="text-indigo-600 hover:underline">Read More</a>
-                </div>
+          </div>
+  
+          <!-- Team Member 2 -->
+          <div>
+            <img src="https://source.unsplash.com/featured/400x400/?team-member" alt="Team Member 2" class="w-32 h-32 rounded-full mx-auto mb-4">
+            <h3 class="text-xl font-bold mb-2">Emmanuel Idakwo</h3>
+            <p class="text-gray-600">Marketing Manager</p>
+            <div class="flex justify-center mt-4">
+              <a href="#"><i class="fab fa-twitter text-blue-500 hover:text-blue-600 mr-2"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in text-blue-500 hover:text-blue-600"></i></a>
             </div>
-        </div>
-    </section>
-
-    <section class="py-16">
-        <div class="container mx-auto">
-            <h2 class="text-3xl font-bold mb-8">Frequently Asked Questions</h2>
-            <div class="grid grid-cols-2 gap-8">
-                <div>
-                    <h3 class="text-xl font-semibold mb-2">How can I contact your team?</h3>
-                    <p class="text-gray-700 mb-4">You can reach out to our team through the contact form on our website, and we'll get back to you as soon as possible.</p>
-                </div>
-                <div>
-                    <h3 class="text-xl font-semibold mb-2">What is your global presence like?</h3>
-                    <p class="text-gray-700 mb-4">We have a strong global presence, enabling us to serve international clients with our top-quality products and services.</p>
-                </div>
-                <div>
-                    <h3 class="text-xl font-semibold mb-2">Are you hiring new team members?</h3>
-                    <p class="text-gray-700 mb-4">We are always looking for talented individuals to join our team. Check our careers page for job openings.</p>
-                </div>
+          </div>
+  
+          <!-- Team Member 3 -->
+          <div>
+            <img src="https://source.unsplash.com/featured/400x400/?team-member" alt="Team Member 3" class="w-32 h-32 rounded-full mx-auto mb-4">
+            <h3 class="text-xl font-bold mb-2">Ojonugwa Wada</h3>
+            <p class="text-gray-600">Financial Analyst</p>
+            <div class="flex justify-center mt-4">
+              <a href="#"><i class="fab fa-twitter text-blue-500 hover:text-blue-600 mr-2"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in text-blue-500 hover:text-blue-600"></i></a>
             </div>
+          </div>
         </div>
+      </div>
     </section>
-
-    <section class="bg-gray-200 py-16">
-        <div class="container mx-auto">
-            <h2 class="text-3xl font-bold mb-8">Our Team</h2>
-            <div class="grid grid-cols-4 gap-8">
-                <div class="text-center">
-                    <img class="h-32 w-32 object-cover rounded-full mx-auto mb-4"
-                        src="https://via.placeholder.com/150" alt="Moruf Yusuf">
-                    <h3 class="text-xl font-semibold mb-2">Moruf Yusuf</h3>
-                    <p class="text-gray-700">CEO</p>
-                    <div>
-                        <a href="#" class="text-gray-500 hover:text-indigo-600 mr-2"><i
-                                class="fab fa-facebook-f"></i></a>
-                        <a href="#" class="text-gray-500 hover:text-indigo-600 mr-2"><i class="fab fa-twitter"></i></a>
-                        <a href="#" class="text-gray-500 hover:text-indigo-600"><i class="fab fa-linkedin-in"></i></a>
-                    </div>
-                </div>
-                <div class="text-center">
-                    <img class="h-32 w-32 object-cover rounded-full mx-auto mb-4"
-                        src="https://via.placeholder.com/150" alt="Ojonugwa Wada">
-                    <h3 class="text-xl font-semibold mb-2">Ojonugwa Wada</h3>
-                    <p class="text-gray-700">Financial Analyst</p>
-                    <div>
-                        <a href="#" class="text-gray-500 hover:text-indigo-600 mr-2"><i
-                                class="fab fa-facebook-f"></i></a>
-                        <a href="#" class="text-gray-500 hover:text-indigo-600 mr-2"><i class="fab fa-twitter"></i></a>
-                        <a href="#" class="text-gray-500 hover:text-indigo-600"><i class="fab fa-linkedin-in"></i></a>
-                    </div>
-                </div>
-                <div class="text-center">
-                    <img class="h-32 w-32 object-cover rounded-full mx-auto mb-4"
-                        src="https://via.placeholder.com/150" alt="Rebecca Yusufu">
-                    <h3 class="text-xl font-semibold mb-2">Rukayat Yusuf</h3>
-                    <p class="text-gray-700">HR</p>
-                    <div>
-                        <a href="#" class="text-gray-500 hover:text-indigo-600 mr-2"><i
-                                class="fab fa-facebook-f"></i></a>
-                        <a href="#" class="text-gray-500 hover:text-indigo-600 mr-2"><i class="fab fa-twitter"></i></a>
-                        <a href="#" class="text-gray-500 hover:text-indigo-600"><i class="fab fa-linkedin-in"></i></a>
-                    </div>
-                </div>
-                <div class="text-center">
-                    <img class="h-32 w-32 object-cover rounded-full mx-auto mb-4"
-                        src="https://via.placeholder.com/150" alt="Team Member 4">
-                    <h3 class="text-xl font-semibold mb-2">Emmanuel Idakwo</h3>
-                    <p class="text-gray-700">Relationship Manager</p>
-                    <div>
-                        <a href="#" class="text-gray-500 hover:text-indigo-600 mr-2"><i
-                                class="fab fa-facebook-f"></i></a>
-                        <a href="#" class="text-gray-500 hover:text-indigo-600 mr-2"><i class="fab fa-twitter"></i></a>
-                        <a href="#" class="text-gray-500 hover:text-indigo-600"><i class="fab fa-linkedin-in"></i></a>
-                    </div>
-                </div>
+  
+    <!-- Newsletter Section -->
+    <section class="newsletter py-16">
+      <div class="container mx-auto">
+        <h2 class="text-3xl font-bold text-center mb-8">Subscribe to Our Newsletter</h2>
+        <form class="max-w-xl mx-auto" action="#">
+          <div class="flex items-center py-2 border-b">
+            <input type="email" class="w-full px-2 py-4 text-lg focus:outline-none" placeholder="Enter your email address">
+            <button type="submit"
+              class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-full ml-4">Subscribe</button>
+          </div>
+        </form>
+      </div>
+    </section>
+  
+    <!-- Contact Section -->
+    <section class="contact bg-gray-200 py-16">
+      <div class="container mx-auto">
+        <h2 class="text-3xl font-bold text-center mb-8">Get in Touch</h2>
+        <div class="max-w-2xl mx-auto">
+          <form class="grid grid-cols-1 gap-6">
+            <div>
+              <label for="name" class="font-bold">Your Name</label>
+              <input type="text" id="name" class="w-full px-4 py-2 border-gray-300 rounded-md focus:outline-none focus:border-blue-500"
+                required>
             </div>
+            <div>
+              <label for="email" class="font-bold">Your Email</label>
+              <input type="email" id="email" class="w-full px-4 py-2 border-gray-300 rounded-md focus:outline-none focus:border-blue-500"
+                required>
+            </div>
+            <div>
+              <label for="message" class="font-bold">Your Message</label>
+              <textarea id="message" class="w-full px-4 py-2 border-gray-300 rounded-md focus:outline-none focus:border-blue-500"
+                required></textarea>
+            </div>
+            <button type="submit" class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-full">Submit</button>
+          </form>
         </div>
+      </div>
     </section>
-
-    <section class="py-16 bg-gray-800 text-white">
-        <div class="container mx-auto text-center">
-            <h2 class="text-3xl font-bold mb-8">Subscribe to our Newsletter</h2>
-            <form class="flex justify-center">
-                <input class="py-2 px-4 rounded-l-full focus:outline-none focus:shadow-outline"
-                    placeholder="Enter your email address">
-                <button
-                    class="bg-indigo-600 hover:bg-indigo-700 text-white font-semibold px-6 rounded-r-full focus:outline-none focus:shadow-outline">
-                    Subscribe
-                </button>
-            </form>
-        </div>
+  
+    <!-- Map Section -->
+    <section class="map py-16">
+      <div class="container mx-auto">
+        <h2 class="text-3xl font-bold text-center mb-8">Visit Us</h2>
+        <div id="map" class="h-64"></div>
+      </div>
     </section>
-
-    <section class="py-16">
-        <div class="container mx-auto">
-            <h2 class="text-3xl font-bold mb-8">Contact Us</h2>
-            <form class="grid grid-cols-2
-            <form class="grid grid-cols-2 gap-8">
-                <div>
-                    <label for="name" class="text-xl font-semibold mb-2">Name</label>
-                    <input type="text" id="name" name="name" class="border border-gray-300 rounded-md py-2 px-4">
-                </div>
-                <div>
-                    <label for="email" class="text-xl font-semibold mb-2">Email</label>
-                    <input type="email" id="email" name="email" class="border border-gray-300 rounded-md py-2 px-4">
-                </div>
-                <div class="col-span-2">
-                    <label for="message" class="text-xl font-semibold mb-2">Message</label>
-                    <textarea id="message" name="message" rows="5"
-                        class="border border-gray-300 rounded-md py-2 px-4"></textarea>
-                </div>
-                <div class="col-span-2 text-right">
-                    <button
-                        class="bg-indigo-600 hover:bg-indigo-700 text-white font-semibold px-6 py-3 rounded-full">Send
-                        Message</button>
-                </div>
-            </form>
-        </div>
-    </section>
-
-    <section class="h-64">
-        <!-- Google Maps section here -->
-    </section>
-
-    <footer class="bg-gray-800 text-white py-4">
-        <div class="container mx-auto flex justify-between items-center px-4">
-            <ul class="flex space-x-4">
-                <li><a href="#" class="text-gray-500 hover:text-gray-300"><i class="fab fa-facebook"></i></a></li>
-                <li><a href="#" class="text-gray-500 hover:text-gray-300"><i class="fab fa-twitter"></i></a></li>
-                <li><a href="#" class="text-gray-500 hover:text-gray-300"><i class="fab fa-linkedin"></i></a></li>
-                <li><a href="#" class="text-gray-500 hover:text-gray-300"><i class="fab fa-instagram"></i></a></li>
-            </ul>
-            <p>&copy; 2022 VARMUF GLOBAL BUSINESS. All rights reserved.</p>
-        </div>
+  
+    <!-- Footer Section -->
+    <footer class="bg-gray-800 text-white py-8">
+      <div class="container mx-auto text-center">
+        <ul class="flex justify-center space-x-6">
+          <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+          <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+          <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+          <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+        </ul>
+        <p class="mt-4">&copy; 2023 VARMUF GLOBAL BUSINESS. All rights reserved.</p>
+      </div>
     </footer>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+  
+    <!-- Google Maps API -->
     <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script>
-    <script>
-        // Additional JavaScript functionality here
-    </script>
-</body>
-
-</html>
+  
+  </body>
+  
+  </html>
